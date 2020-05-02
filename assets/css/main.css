@@ -143,8 +143,8 @@
     text-transform: uppercase;
     cursor: pointer;
     display: inline-block;
-    background-color: #e54b4b;
-    border: 2px solid #e54b4b;
+    background-color: #c6e481;
+    border: 2px solid #c6e481;
     color: #fffaf0;
     transition: all 0.3s;
     border: none;
@@ -161,7 +161,7 @@
 }
   
 .link:hover {
-    color: #F6AA1C;
+    color: rgb(28, 177, 246);
 }
   
 .info {
@@ -218,8 +218,8 @@ input[type=submit] {
     text-transform: uppercase;
     cursor: pointer;
     display: inline-block;
-    background-color: #e54b4b;
-    border: 2px solid #e54b4b;
+    background-color: #934be5;
+    border: 2px solid #934be5;
     color: #fffaf0;
     transition: all 0.3s;
     border: none;
@@ -227,8 +227,8 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: transparent;
-    border: 2px solid #e54b4b;
-    color: #e54b4b;
+    border: 2px solid #934be5;
+    color: #934be5;
     transform: scale(0.9);
 }
 

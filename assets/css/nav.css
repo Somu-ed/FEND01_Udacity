@@ -1,6 +1,6 @@
 nav {
     grid-area: nav;
-    background-color: #F6AA1C;
+    background-color: rgb(28, 177, 246);
     display: flex;
     flex-flow: row wrap;
     width: 100%;

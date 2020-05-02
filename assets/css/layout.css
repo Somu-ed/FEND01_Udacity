@@ -8,7 +8,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 1.6;
-    background-color: #fffaf0;
+    background-color: #cbfaf7;
     color: #222;
 }
 
@@ -59,15 +59,15 @@ p + p {
 a {
     outline: none;
     text-decoration: none;
-    color: #86a578;
+    color: #78a3a5;
 }
 
 a:visited {
-    color: #f6aa1c;
+    color: #4c31c4;
 }
 
 a:hover {
-    color: #e54b4b;
+    color: #864be5;
 }
 
 strong {
@@ -116,7 +116,6 @@ blockquote:first-letter {
     padding-left: 3px;
 }
 
-/* Buttons */
 .button {
     width: 150px;
     padding: 10px 0;
@@ -133,45 +132,16 @@ blockquote:first-letter {
 
 .button-primary {
     background-color: transparent;
-    border: 2px solid #f6aa1c;
+    border: 2px solid rgb(28, 177, 246);
     border-radius: 3px;
-    color: #f6aa1c;
+    color: rgb(28, 177, 246);
     transition: all 0.3s;
 }
 
 .button-primary:hover {
-    background-color: #f6aa1c;
-    border: 2px solid #f6aa1c;
+    background-color: rgb(28, 177, 246);
+    border: 2px solid rgb(28, 177, 246);
     border-radius: 3px;
     color: #fffaf0;
-    transform: scale(0.9);
-}
-
-.button-primary:active {
-    background-color: #f6aa1c;
-    border: 2px solid #f6aa1c;
-    border-radius: 3px;
-    color: #fffaf0;
-    transform: scale(0.9);
-}
-
-.button-secondary {
-    background-color: #e54b4b;
-    border: 2px solid #e54b4b;
-    color: #fffaf0;
-    transition: all 0.3s;
-}
-
-.button-secondary:hover {
-    background-color: transparent;
-    border: 2px solid #e54b4b;
-    color: #e54b4b;
-    transform: scale(0.9);
-}
-
-.button-secondary:active {
-    background-color: transparent;
-    border: 2px solid #e54b4b;
-    color: #e54b4b;
     transform: scale(0.9);
 }
